@@ -1,0 +1,53 @@
+body {
+    margin: 0;
+    background: white;
+}
+
+#hero-text {
+    font: 700 4rem 'Lato', sans-serif;
+    text-align: center;
+    margin: 100px auto;
+}
+
+#blog-container {
+    display: flex;
+    flex-flow: column wrap;
+    margin: 50px 200px;
+}
+
+.blog {
+    width: 100%;
+    height: auto;
+    padding: 20px;
+    background-color: rgba(200, 200, 200, 0.2);
+    margin-bottom: 35px;
+    border-radius: 0.5rem;
+    transition: box-shadow 0.2s ease-in-out;
+}
+
+.blog:hover {
+    box-shadow: 0.4rem 0.4rem 1rem 0.1rem rgb(229, 229, 229);
+}
+
+.blog .title-date {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.blog h1 {
+    font: 700 2rem 'Lato', sans-serif;
+    text-transform: uppercase;
+    margin: 0;
+}
+
+.blog h2 {
+    font: 1.75rem 'Lato', sans-serif;
+    color: #666;
+    margin: 0;
+}
+
+.blog .desc {
+    font: 400 1.5rem 'Lato', sans-serif;
+    margin: 10px 0 0 0;
+}
